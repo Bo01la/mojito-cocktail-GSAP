@@ -13,7 +13,8 @@ function App() {
   return (
     <main>
       <Nav />
-        <Hero />
+      <Hero />
+      <div className="h-dvh" />
     </main>
   );
 }
