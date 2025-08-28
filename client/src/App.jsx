@@ -10,6 +10,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Cocktails from "./components/Cocktails.jsx";
 import About from "./components/About.jsx";
+import Art from "./components/Art.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <Cocktails />
       <About />
+      <Art />
     </main>
   );
 }
