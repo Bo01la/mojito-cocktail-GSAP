@@ -115,7 +115,6 @@ const Hero = () => {
         </div>
       </section>
 
-      {/*video part*/}
       <div className="video absolute inset-0 ">
         <video
           src="/videos/output.mp4"

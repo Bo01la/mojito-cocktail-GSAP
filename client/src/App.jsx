@@ -8,13 +8,14 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import Cocktails from "./components/Cocktails.jsx";
 
 function App() {
   return (
     <main>
       <Nav />
       <Hero />
-      <div className="h-dvh" />
+      <Cocktails />
     </main>
   );
 }
