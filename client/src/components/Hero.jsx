@@ -58,7 +58,7 @@ const Hero = () => {
 
     // defining the start and end values based on the screen size we defined using useMediaQuery()
     const startValue = isMobile ? "top 50%" : "center 60%";
-    const endValue = isMobile ? "120% top" : "bottom top";
+    const endValue = isMobile ? "170% top" : "bottom top";
 
     // creating timeline for the video:
     const tl = gsap.timeline({

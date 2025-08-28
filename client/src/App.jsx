@@ -1,5 +1,5 @@
 import gsap from "gsap";
-// imposting gsap plugins
+// importing gsap plugins
 import { ScrollTrigger, SplitText } from "gsap/all";
 
 // registering the plugins
@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Cocktails from "./components/Cocktails.jsx";
+import About from "./components/About.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Nav />
       <Hero />
       <Cocktails />
+      <About />
     </main>
   );
 }
